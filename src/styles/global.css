@@ -1,15 +1,21 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 html {
   background-color: #f1f5f9;
-  font-family: sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 html.dark {
-  background-color: #0d0950;
+  background-color: #1b1b1b;
   color: #fff;
 }
 
 .dark .nav-links a {
   color: #fff;
+}
+
+.dark .skill {
+  color: #1daf00;
 }
 
 body {
